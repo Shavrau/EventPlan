@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Navigate to Home Directory
-        run: cd home
+        run: cd Home
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
