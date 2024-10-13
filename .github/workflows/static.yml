@@ -32,17 +32,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Navigate to Home Directory
-        run: cd Home
-      
       - name: Setup Pages
         uses: actions/configure-pages@v5
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository from the home directory
-          path: '.'
+          # Upload the content from the 'home' directory
+          path: 'home'
           
       - name: Deploy to GitHub Pages
         id: deployment
