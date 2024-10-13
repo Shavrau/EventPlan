@@ -1,40 +1,33 @@
-# Projeto de Eventos - 1º Semestre
+# Documentação do Projeto EventPlan
 
-Este repositório contém o projeto desenvolvido durante o 1º semestre do curso de [Nome do curso], com o tema **Gerenciamento de Eventos**. O projeto consiste em um site estático que apresenta informações sobre eventos, desenvolvido utilizando HTML, CSS e JavaScript básico.
+## Descrição
 
-## Funcionalidades Principais
-
-- Exibição de uma lista de eventos
-- Página descritiva para cada evento
-- Design responsivo para melhor visualização em dispositivos móveis
+O **EventPlan** é um projeto desenvolvido como parte do curso de **Desenvolvimento de Software Multiplataforma**. O projeto consiste em um site estático que permite gerenciar e visualizar eventos. 
 
 ## Tecnologias Utilizadas
 
-- **HTML**: Estruturação das páginas
-- **CSS**: Estilização e layout do site
-- **JavaScript**: Adição de interatividade simples, como navegação entre páginas e exibição de detalhes dos eventos
+### Primeiro Semestre
+- HTML
+- CSS
+- JavaScript
 
-## Como Executar o Projeto
+### Segundo Semestre
+- Site Estático (HTML, CSS e JavaScript)
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-eventos-1semestre.git
-   ```
+## Deployment
 
-2. Abra o arquivo `index.html` em qualquer navegador.
+O deploy do projeto está disponível em [EventPlan - GitHub Pages](https://shavrau.github.io/EventPlan/). 
 
-## Estrutura do Projeto
+**Nota:** Atualmente, apenas a página **Home** está disponível para visualização. Para acessar o conteúdo completo do projeto e visualizar outras páginas, clone o repositório utilizando o seguinte link:
 
-- `index.html`: Página inicial com a listagem de eventos.
-- `style.css`: Estilos globais do site.
-- `script.js`: JavaScript básico para navegação e exibição de conteúdo interativo.
+[Repositório do EventPlan](https://github.com/Shavrau/EventPlan)
 
-## Capturas de Tela
+## Como Clonar o Repositório
 
-- Adicione aqui algumas imagens da interface do site para ilustrar seu funcionamento.
+Para clonar o repositório, utilize o seguinte comando no seu terminal:
 
-## Melhorias Futuras
+```bash
+git clone https://github.com/Shavrau/EventPlan.git
+```
 
-- Adição de formulário de inscrição para eventos.
-- Integração com uma base de dados para cadastro de novos eventos.
-- Envio de notificações via e-mail ou mensagens.
+Depois de clonar, você poderá abrir os arquivos HTML localmente em seu navegador para navegar por todas as páginas do projeto.
