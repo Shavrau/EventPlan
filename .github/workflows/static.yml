@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload the content from the 'home' directory
-          path: 'home'
+          path: 'Home'
           
       - name: Deploy to GitHub Pages
         id: deployment
